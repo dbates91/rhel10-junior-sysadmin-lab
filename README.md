@@ -107,3 +107,22 @@ By the end of the project, this repository will show practical experience with:
 ## Current Status
 
 Environment setup is complete. Week 1 labs are beginning with Linux filesystem fundamentals and simulated junior administrator tasks.
+
+
+## Finalized Bootcamp Framework
+
+This repository now follows the definitive 12-week Red Hat Junior Linux System Administrator Bootcamp framework.
+
+The two equal graduation outcomes are:
+
+1. **Junior Linux System Administrator technical interview readiness**
+2. **RHCSA EX200 practical examination readiness**
+
+The program uses RH124/RH134 progression, current EX200 objective tracking, cumulative practical labs, realistic troubleshooting tickets, a continuous Enterprise RHEL Server Operations Lab, technical interview drills, and competency-based advancement.
+
+Key documents:
+- [Official Master Framework](docs/course-1-master-framework.md)
+- [Course Progress Tracker](COURSE_TRACKER.md)
+- [RHCSA EX200 Objective Tracker](docs/ex200-objective-tracker.md)
+- [Interview Readiness Tracker](docs/interview-readiness-tracker.md)
+- [Enterprise RHEL Server Operations Lab](capstone/README.md)
