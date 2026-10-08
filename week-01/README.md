@@ -1,90 +1,52 @@
-# Week 1 — Terminal and Filesystem Foundations
+# Week 1 — Linux Fundamentals and File Management
 
-## Goal
+## Current Position
 
-Build command-line fluency with the core filesystem operations used constantly in Linux administration.
+- Lesson 1 — Terminal navigation and filesystem exploration: **Completed**
+- Lesson 2 — Creating, copying, moving, renaming, and deleting files/directories: **In Progress**
 
-## Commands Introduced
+## RH124 Alignment
 
-```text
-pwd
-ls
-ls -l
-ls -a
-cd
-mkdir
-touch
-cp
-mv
-rm
-rmdir
-```
+Week 1 covers command-line fundamentals, filesystem hierarchy, file and directory management, links, and local documentation.
 
-Commands are not practiced as isolated trivia. Each command is introduced through a small simulated work task.
+## RHCSA EX200 Alignment
 
-## Lab Progression
+Current objective family: **Understand and use essential tools**
 
-### Lab 1.1 — Prepare an Application Workspace
+This week develops:
+- shell command fluency
+- file and directory creation/removal
+- copying and moving
+- hard and symbolic links
+- locating and using local documentation
+- cumulative verification of filesystem state
 
-**Status:** Ready to begin
+## Junior SysAdmin Interview Track
 
-Scenario: A new internal application needs directories for configuration files, logs, backups, and temporary data.
+This week also trains the student to:
+- explain absolute vs. relative paths
+- explain the difference between `cp` and `mv`
+- describe safe deletion practices
+- explain why verification matters after a filesystem change
+- demonstrate the commands live while narrating reasoning
 
-Skills:
+## Week 1 Schedule
 
-- Identify the current working directory
-- Inspect directory contents
-- Create directories
-- Create files
-- Navigate between directories
-- Verify the final state
+- Monday: navigation and filesystem exploration — completed
+- Tuesday: file/directory creation, copy, move, rename, delete
+- Wednesday: independent filesystem administration + EX200 challenge
+- Thursday: troubleshooting ticket + interview drill
+- Friday: cumulative review + practical assessment
+- Weekend: capstone update, remediation, GitHub documentation
 
-### Lab 1.2 — Back Up a Configuration File
+## Administrative Method
 
-Scenario: Create a backup of an application configuration file before a change.
+**Verify → Scope → Inspect → Isolate → Resolve → Validate → Document → Prevent**
 
-Primary new command:
+For simple file-management changes, this condenses to:
 
-```bash
-cp
-```
+**Inspect → Change → Verify**
 
-### Lab 1.3 — Move and Rename Files
+## Cumulative Rule
 
-Scenario: Correct files that were placed in the wrong location and rename files according to an operational standard.
-
-Primary new command:
-
-```bash
-mv
-```
-
-### Lab 1.4 — Remove Obsolete Files Safely
-
-Scenario: Inspect and remove obsolete temporary files without deleting the wrong data.
-
-Primary new command:
-
-```bash
-rm
-```
-
-### Week 1 Ticket
-
-After the guided labs, a reduced-hint ticket will require the same skills without providing the commands.
-
-## Administrative Habit
-
-The Week 1 workflow is:
-
-```text
-Establish location
-        ↓
-Inspect existing state
-        ↓
-Make the requested change
-        ↓
-Verify the change
-```
-
-This pattern will remain part of every later lab.
+Later Week 1 exercises continue to require navigation skills from Lesson 1. Completed skills are reused rather than retired.
